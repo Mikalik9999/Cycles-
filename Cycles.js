@@ -26,7 +26,7 @@ const minFunction2 = (mini,low) => {
         console.log(now);
         now++;
     } while (now <= n);
-    };
+};
 
 //minFunction2(5,4);
 
@@ -49,7 +49,8 @@ const maxFunction = (max,big) => {
     while (now <= n) {
         if (now % 2 === 0) {
             console.log(now);
-        } now++;
+        }
+        now++;
     }
 };
 //maxFunction(8,6);
@@ -66,8 +67,6 @@ const maxFunction2 = (max,big) => {
     while (now <= n);
 };
 //maxFunction2(8,6);
-
-
 
 const maxFunction3 = (max,big) => {
     let n = 0;
@@ -113,6 +112,6 @@ const ymnFunction3 = (n,m) => {
     for (let now = 1; now <= n ;  now++) {
         let future = now * m ;
         future % 2 && (console.log(now) || console.log(future))
-        }
+    }
 };
 //ymnFunction3(8,3);
